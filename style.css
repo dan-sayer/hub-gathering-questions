@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'poppins', sans-serif;
+	font-size: 18px;
+}
+
+
+body{
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(Assets/People.png);
+	background-size: 1800px;
+}
+
+img, iframe {
+	vertical-align: bottom;
+	max-width: 100%;
+}
+
+header {
+	width: 550px;
+	top: 0;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.container{
+	width: 500px;
+	padding: 30px;
+	border-radius: 10px;
+	background-color: #BDD3CA;
+}
+
+h4{
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+	color: #294B40;
+}
+input{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+textarea{
+	max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+	padding: 20px;
+	padding-bottom: 50px;
+    font-family: 'poppins', sans-serif;
+	font-size: 16px;
+    border: none;
+}
+#submit{
+	border: none;
+	background-color: #FAC6C9;
+	color: #294B40;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+#submit:hover{
+	background-color: #294B40;
+    color: white;
+	cursor: pointer;
+}
+
+footer {
+	width: 150px;
+	bottom: 0; 
+	padding: 0;
+	margin-top: 50px;
+}
+
+@media (max-width: 700px) {
+
+	header {
+		width: 350px;
+		top: 0;
+		padding: 0;
+		margin-bottom: 30px;
+	}
+
+	.container {
+		width: 350px;
+		padding: 20px;
+		border-radius: 10px;
+		background-color: #BDD3CA;
+	}
+	
+	h4 {
+	  font-size: 18px;
+	  margin-bottom: 20px;
+	}
+
+	textarea {
+		padding-bottom: 20px;
+	}
+
+	#submit {
+		width: 100%;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+
+	footer {
+		width: 100px;
+		bottom: 0; 
+		padding: 0;
+		margin-top: 40px;
+	}
+	
+  } 
