@@ -84,6 +84,7 @@ footer {
 @media (max-width: 700px) {
 
 	body {
+		height: 90vh;
 		background-size: 1000px;
 	}
 
