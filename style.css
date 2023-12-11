@@ -83,6 +83,10 @@ footer {
 
 @media (max-width: 700px) {
 
+	body {
+		background-size: 1000px;
+	}
+
 	header {
 		width: 350px;
 		top: 0;
@@ -92,6 +96,7 @@ footer {
 
 	.container {
 		width: 350px;
+		min-width: 300px;
 		padding: 20px;
 		border-radius: 10px;
 		background-color: #BDD3CA;
